@@ -61,7 +61,7 @@ function ForgotPassword() {
     }
 
     try {
-      const response = await axios.post("https://auth-coin.onrender.com/auth/reset-password", {
+      const response = await axios.post("auth-coinn-production.up.railway.app/auth/reset-password", {
         email,
         newPassword,
       });

@@ -80,7 +80,7 @@ function Signup() {
     setLoading(true);
 
     try {
-      const response = await axios.post('https://auth-coin.onrender.com/auth/register', {
+      const response = await axios.post('auth-coinn-production.up.railway.app/auth/register', {
         name,
         email,
         password
